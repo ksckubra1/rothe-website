@@ -6,6 +6,7 @@ import Link from "next/link";
 
 
 export default function Payment() {
+
     const [isFlipped, setIsFlipped] = useState(false)
 
     const [cardOwner, setCardOwner] = useState("")
@@ -29,6 +30,7 @@ export default function Payment() {
                                 <input onBlur={() => setIsFlipped(false)} onFocus={() => setIsFlipped(true)} onChange={(e) => setCvv(e.target.value)} className="h-12 w-1/3 lg:text-lg text-xs rounded-lg outline-none lg:px-4 bg-[#f8f7f7] text-center" placeholder="Cvv" type="number" />
                             </div>
                             <Link href={"/paymentResult"}
+
                                 className="bg-[#A885C3] h-12 rounded-lg text-[#E9E6E6] font-bold text-lg items-center flex justify-center">Make Payment
                             </Link>
                         </div>

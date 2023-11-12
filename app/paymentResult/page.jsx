@@ -3,11 +3,17 @@ import styles from "./PaymentResult.module.css"
 import PaymentResultAnim from "../lotties/payment.json"
 import carCargo from "../lotties/car-cargo.json"
 import Lottie from "react-lottie";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useDispatch } from "react-redux";
+import { clearProducts } from "../store/basketSlice";
 
 
 export default function PaymentResult() {
+    const dispatch = useDispatch()
+    useEffect(() => {
+        dispatch(clearProducts())
+    }, [])
 
     const [currentScreen, setCurrentScreen] = useState("payment")
 

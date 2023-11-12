@@ -24,6 +24,10 @@ export const basketSlice = createSlice({
             console.log(action.payload);
             state.products = state.products.filter((_, index) => index != action.payload)
             setBasketLocalStorage(state)
+        },
+        clearProducts: (state) => {
+            state.products = []
+            setBasketLocalStorage(state)
         }
     }
 })
@@ -32,5 +36,5 @@ const setBasketLocalStorage = (state) => {
     localStorage.setItem("basket", JSON.stringify(state))
 }
 
-export const { addProduct, removeProduct, loadSlice } = basketSlice.actions
+export const { addProduct, removeProduct, loadSlice, clearProducts } = basketSlice.actions
 export default basketSlice.reducer
