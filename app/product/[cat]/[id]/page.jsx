@@ -96,7 +96,7 @@ export default function ProductPage({ params }) {
                                 <img onClick={(e) => {
                                     setImageSrc(e.target.src)
                                 }}
-                                    key={index} className="flex-1 h-full w-full overflow-hidden shadow-lg object-cover rounded-lg " src={image} alt="" />
+                                    key={index} className="flex-1 cursor-pointer h-full w-full overflow-hidden shadow-lg object-cover rounded-lg " src={image} alt="" />
                             ))
                         }
                     </div>
@@ -122,23 +122,23 @@ export default function ProductPage({ params }) {
                                 setSize(e.target.id)
                             }
                             } className={styles.radio} type="radio" id="size-xs" name="size" />
-                            <label htmlFor="size-xs" className="focus:border-[#444141a6] w-12 h-8 flex items-center justify-center border rounded-lg shadow-sm text-sm border-[#9b9a9a42]">XS</label>
+                            <label htmlFor="size-xs" className="focus:border-[#444141a6] w-12 cursor-pointer h-8 flex items-center justify-center border rounded-lg shadow-sm text-sm border-[#9b9a9a42]">XS</label>
                             <input onChange={(e) => {
                                 setChecked(e.target.checked);
                                 setSize(e.target.id)
                             }}
                                 className={styles.radio} type="radio" id="size-s" name="size" />
-                            <label htmlFor="size-s" className="focus:border-[#444141a6] w-12 h-8 flex items-center justify-center border rounded-lg shadow-sm text-sm border-[#9b9a9a42]">S</label>
+                            <label htmlFor="size-s" className="focus:border-[#444141a6] cursor-pointer w-12 h-8 flex items-center justify-center border rounded-lg shadow-sm text-sm border-[#9b9a9a42]">S</label>
                             <input onChange={(e) => {
                                 setChecked(e.target.checked);
                                 setSize(e.target.id)
                             }} className={styles.radio} type="radio" id="size-m" name="size" />
-                            <label htmlFor="size-m" className="focus:border-[#444141a6] w-12 h-8 flex items-center justify-center border rounded-lg shadow-sm text-sm border-[#9b9a9a42]">M</label>
+                            <label htmlFor="size-m" className="focus:border-[#444141a6] cursor-pointer w-12 h-8 flex items-center justify-center border rounded-lg shadow-sm text-sm border-[#9b9a9a42]">M</label>
                             <input onChange={(e) => {
                                 setChecked(e.target.checked);
                                 setSize(e.target.id)
                             }} className={styles.radio} type="radio" id="size-l" name="size" />
-                            <label htmlFor="size-l" className="focus:border-[#444141a6] w-12 h-8 flex items-center justify-center border rounded-lg shadow-sm text-sm border-[#9b9a9a42]">L</label>
+                            <label htmlFor="size-l" className="focus:border-[#444141a6] cursor-pointer w-12 h-8 flex items-center justify-center border rounded-lg shadow-sm text-sm border-[#9b9a9a42]">L</label>
                             {
                                 !checked && <div className="text-sm">Please select size!</div>
                             }

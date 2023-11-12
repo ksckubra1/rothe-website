@@ -59,7 +59,7 @@ export default function Header(props) {
                 </div>
                 <div className="flex md:hidden justify-between items-center w-full">
                     <Link href={"/"} className="font-serif text-3xl">ROTHE</Link>
-                    <i className="fa-solid fa-bars text-2xl" onClick={menuToggle}></i>
+                    <i className="fa-solid fa-bars text-2xl cursor-pointer" onClick={menuToggle}></i>
                 </div>
             </div >
             {
