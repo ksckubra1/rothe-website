@@ -30,7 +30,8 @@ export default function MyFavorites() {
                         </div>
                     </>
                     :
-                    <div className="gap-3 flex-col justify-center items-center flex">
+
+                    <div className=" h-[calc(100vh-4rem)] gap-3 flex-col justify-center items-center flex">
                         <i className="fa-solid fa-face-grimace text-[#acaaaaa2] text-6xl"></i>
                         <span className="text-2xl lg:text-4xl text-[#4240402a]">No Favorite Added</span>
                     </div>

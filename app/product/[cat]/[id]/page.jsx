@@ -84,7 +84,7 @@ export default function ProductPage({ params }) {
                 />
             }
             <div className="flex flex-col md:flex-row bg-[#E9E6E6] max-w-7xl w-full mx-auto md:rounded-xl shadow-xl overflow-hidden">
-                <div className="md:w-1/2 overflow-hidden">
+                <div className="md:w-1/2 md:aspect-[4/5] overflow-hidden">
                     <img className="w-full h-full object-cover" src={imageSrc} alt="" />
                 </div>
                 <div className="md:w-1/2 flex flex-col gap-y-12 justify-center bg-[#E9E6E6] p-10">
@@ -116,7 +116,7 @@ export default function ProductPage({ params }) {
 
                     {
                         (params.cat == "cardigans" || params.cat == "dresses") &&
-                        <div className="flex gap-2 relative overflow-hidden">
+                        <div className="flex gap-2 items-center relative overflow-hidden">
                             <input onChange={(e) => {
                                 setChecked(e.target.checked);
                                 setSize(e.target.id)
@@ -140,7 +140,7 @@ export default function ProductPage({ params }) {
                             }} className={styles.radio} type="radio" id="size-l" name="size" />
                             <label htmlFor="size-l" className="focus:border-[#444141a6] w-12 h-8 flex items-center justify-center border rounded-lg shadow-sm text-sm border-[#9b9a9a42]">L</label>
                             {
-                                !checked && <div className="absolute bottom-1 text-sm right-[360px]">Please select size!</div>
+                                !checked && <div className="text-sm">Please select size!</div>
                             }
                         </div>
 
