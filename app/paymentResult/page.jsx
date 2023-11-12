@@ -40,7 +40,7 @@ export default function PaymentResult() {
     };
 
     return (
-        <div className="lg:py-28 h-[calc(100vh-4rem)]">
+        <div className="lg:py-28 h-[calc(100vh-4rem)] w-screen ">
 
             <div className={`${styles.paymentResultParent} lg:rounded-3xl lg:w-[70%] h-full`}>
                 {currentScreen === "payment" &&
