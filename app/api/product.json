@@ -1,0 +1,766 @@
+{
+    "cardigans": [
+        {
+            "id": 1,
+            "fee": 40,
+            "banner": "/images/product/product1.jpg",
+            "images": [
+                "/images/product/images/image4.webp",
+                "/images/product/images/image5.webp",
+                "/images/product/images/image6.webp"
+            ],
+            "title": "Knitted vest",
+            "rate": 3,
+            "evaluation": 89
+        },
+        {
+            "id": 2,
+            "fee": 55,
+            "banner": "/images/product/product2.jpg",
+            "images": [
+                "/images/product/images/image7.jpg",
+                "/images/product/images/image8.jpg",
+                "/images/product/images/image9.jpg"
+            ],
+            "title": "Blue Cardigan",
+            "rate": 4,
+            "evaluation": 91
+        },
+        {
+            "id": 3,
+            "fee": 25,
+            "banner": "/images/product/product3.jpg",
+            "images": [
+                "/images/product/images/image10.jpg",
+                "/images/product/images/image11.jpg",
+                "/images/product/images/image12.jpg"
+            ],
+            "title": "Knitted Blouse",
+            "rate": 5,
+            "evaluation": 98
+        },
+        {
+            "id": 4,
+            "fee": 25,
+            "banner": "/images/product/product4.jpg",
+            "images": [
+                "/images/product/images/image13.webp",
+                "/images/product/images/image14.webp",
+                "/images/product/images/image15.webp"
+            ],
+            "title": "Striped Cardigan",
+            "rate": 0,
+            "evaluation": 55
+        },
+        {
+            "id": 5,
+            "fee": 70,
+            "banner": "/images/product/product6.jpg",
+            "images": [
+                "/images/product/images/image16.jpg",
+                "/images/product/images/image17.jpg",
+                "/images/product/images/image18.jpg"
+            ],
+            "title": "Green Cardigan",
+            "rate": 5,
+            "evaluation": 61
+        },
+        {
+            "id": 6,
+            "fee": 30,
+            "banner": "/images/product/product7.jpg",
+            "images": [
+                "/images/product/images/image19.jpeg",
+                "/images/product/images/image20.jpeg",
+                "/images/product/images/image21.jpeg"
+            ],
+            "title": "Checkerboard Patterned Cardigan",
+            "rate": 4,
+            "evaluation": 58
+        },
+        {
+            "id": 7,
+            "fee": 36,
+            "banner": "/images/product/product8.webp",
+            "images": [
+                "/images/product/images/image22.webp",
+                "/images/product/images/image23.webp",
+                "/images/product/images/image24.webp"
+            ],
+            "title": "Green Cardigan",
+            "rate": 3,
+            "evaluation": 330
+        },
+        {
+            "id": 8,
+            "fee": 25,
+            "banner": "/images/product/product9.jpg",
+            "images": [
+                "/images/product/images/image25.jpg",
+                "/images/product/images/image26.jpg",
+                "/images/product/images/image27.jpg"
+            ],
+            "title": "Black Cloudy Pink Cardigan",
+            "rate": 2,
+            "evaluation": 80
+        },
+        {
+            "id": 9,
+            "fee": 70,
+            "banner": "/images/product/product10.jpg",
+            "images": [
+                "/images/product/images/image28.jpeg",
+                "/images/product/images/image29.jpg",
+                "/images/product/images/image30.webp"
+            ],
+            "title": "Rainbow Patterned long Cardigan",
+            "rate": 1,
+            "evaluation": 255
+        },
+        {
+            "id": 10,
+            "fee": 60,
+            "banner": "/images/product/product11.webp",
+            "images": [
+                "/images/product/images/image31.webp",
+                "/images/product/images/image32.webp",
+                "/images/product/images/image33.webp"
+            ],
+            "title": "Little Black White Cardigan",
+            "rate": 0,
+            "evaluation": 335
+        },
+        {
+            "id": 11,
+            "fee": 80,
+            "banner": "/images/product/product12.jpg",
+            "images": [
+                "/images/product/images/image34.jpeg",
+                "/images/product/images/image35.jpeg",
+                "/images/product/images/image36.jpeg"
+            ],
+            "title": "Heart Cardigan",
+            "rate": 5,
+            "evaluation": 33
+        },
+        {
+            "id": 12,
+            "fee": 44,
+            "banner": "/images/product/product13.webp",
+            "images": [
+                "/images/product/images/image37.webp",
+                "/images/product/images/image38.webp",
+                "/images/product/images/image39.webp"
+            ],
+            "title": "Rose Patterned Plush Cardigan",
+            "rate": 5,
+            "evaluation": 0
+        },
+        {
+            "id": 13,
+            "fee": 75,
+            "banner": "/images/product/product15.webp",
+            "images": [
+                "/images/product/images/image40.webp",
+                "/images/product/images/image41.webp",
+                "/images/product/images/image42.webp"
+            ],
+            "title": "Black Long Cardigan",
+            "rate": 5,
+            "evaluation": 8
+        },
+        {
+            "id": 14,
+            "fee": 36,
+            "banner": "/images/product/product16.jpg",
+            "images": [
+                "/images/product/images/image43.jpeg",
+                "/images/product/images/image44.jpg",
+                "/images/product/images/image45.jpg"
+            ],
+            "title": "Daisy Short Cardigan",
+            "rate": 4,
+            "evaluation": 14
+        },
+        {
+            "id": 15,
+            "fee": 55,
+            "banner": "/images/product/product17.jpg",
+            "images": [
+                "/images/product/images/image46.jpeg",
+                "/images/product/images/image47.jpeg",
+                "/images/product/images/image48.jpeg"
+            ],
+            "title": "Cherry White Cardigan",
+            "rate": 3,
+            "evaluation": 0
+        },
+        {
+            "id": 16,
+            "fee": 78,
+            "banner": "/images/product/product18.jpg",
+            "images": [
+                "/images/product/images/image49.jpeg",
+                "/images/product/images/image50.jpg",
+                "/images/product/images/image51.jpg"
+            ],
+            "title": "Colorful Cherries, Balloon Sleeve Cardigan",
+            "rate": 2,
+            "evaluation": 558
+        }
+    ],
+    "dresses": [
+        {
+            "id": 1,
+            "fee": 80,
+            "banner": "/images/product/product20.jpg",
+            "images": [
+                "/images/product/images/image55.jpeg",
+                "/images/product/images/image56.jpeg",
+                "/images/product/images/image55.jpeg"
+            ],
+            "title": "Pink Tulle Fluffy Mini Dress",
+            "rate": 4,
+            "evaluation": 96
+        },
+        {
+            "id": 2,
+            "fee": 58,
+            "banner": "/images/product/product21.jpg",
+            "images": [
+                "/images/product/images/image56.jpg",
+                "/images/product/images/image57.jpg",
+                "/images/product/images/image58.jpg"
+            ],
+            "title": "Pink Mini Dress",
+            "rate": 5,
+            "evaluation": 0
+        },
+        {
+            "id": 3,
+            "fee": 50,
+            "banner": "/images/product/product22.jpg",
+            "images": [
+                "/images/product/images/image59.jpeg",
+                "/images/product/images/image60.jpeg",
+                "/images/product/images/image61.webp"
+            ],
+            "title": "Satin Shiny Black Mini Dress",
+            "rate": 4,
+            "evaluation": 3
+        },
+        {
+            "id": 4,
+            "fee": 70,
+            "banner": "/images/product/product23.jpg",
+            "images": [
+                "/images/product/images/image62.jpg",
+                "/images/product/images/image63.jpg",
+                "/images/product/images/image64.jpg"
+            ],
+            "title": "Balloon Sleeve Mini Dress",
+            "rate": 4,
+            "evaluation": 0
+        },
+        {
+            "id": 5,
+            "fee": 45,
+            "banner": "/images/product/product24.jpg",
+            "images": [
+                "/images/product/images/image65.webp",
+                "/images/product/images/image66.webp",
+                "/images/product/images/image67.webp"
+            ],
+            "title": "Padded Black Mini Dress",
+            "rate": 5,
+            "evaluation": 75
+        },
+        {
+            "id": 6,
+            "fee": 55,
+            "banner": "/images/product/product25.jpg",
+            "images": [
+                "/images/product/images/image68.jpg",
+                "/images/product/images/image69.jpg",
+                "/images/product/images/image70.jpg"
+            ],
+            "title": "Padded Black Mini Dress",
+            "rate": 0,
+            "evaluation": 76
+        },
+        {
+            "id": 7,
+            "fee": 50,
+            "banner": "/images/product/product26.jpg",
+            "images": [
+                "/images/product/images/image71.webp",
+                "/images/product/images/image72.webp",
+                "/images/product/images/image73.webp"
+            ],
+            "title": "Balloon Sleeve Brick Color Dress",
+            "rate": 5,
+            "evaluation": 15
+        },
+        {
+            "id": 8,
+            "fee": 30,
+            "banner": "/images/product/product27.jpg",
+            "images": [
+                "/images/product/images/image74.jpeg",
+                "/images/product/images/image75.jpeg",
+                "/images/product/images/image76.jpeg"
+            ],
+            "title": "Saks Blue Satin Dress",
+            "rate": 1,
+            "evaluation": 7
+        },
+        {
+            "id": 9,
+            "fee": 60,
+            "banner": "/images/product/product28.jpg",
+            "images": [
+                "/images/product/images/image77.webp",
+                "/images/product/images/image78.webp",
+                "/images/product/images/image79.webp"
+            ],
+            "title": "Belted Green Satin Dress",
+            "rate": 3,
+            "evaluation": 18
+        },
+        {
+            "id": 10,
+            "fee": 60,
+            "banner": "/images/product/product29.jpg",
+            "images": [
+                "/images/product/images/image80.jpg",
+                "/images/product/images/image81.jpg",
+                "/images/product/images/image82.jpg"
+            ],
+            "title": "Sequin Knitted dress",
+            "rate": 2,
+            "evaluation": 23
+        }
+    ],
+    "candles": [
+        {
+            "id": 1,
+            "fee": 10,
+            "banner": "/images/product/product30.jpg",
+            "images": [
+                "/images/product/product30.jpg",
+                "/images/product/product30.jpg",
+                "/images/product/product30.jpg"
+            ],
+            "title": "Colorful and Scented Candle",
+            "rate": 5,
+            "evaluation": 99
+        },
+        {
+            "id": 2,
+            "fee": 10,
+            "banner": "/images/product/product31.jpg",
+            "images": [
+                "/images/product/product31.jpg",
+                "/images/product/product31.jpg",
+                "/images/product/product31.jpg"
+            ],
+            "title": "Colorful and Scented Candle",
+            "rate": 5,
+            "evaluation": 72
+        },
+        {
+            "id": 3,
+            "fee": 10,
+            "banner": "/images/product/product32.jpg",
+            "images": [
+                "/images/product/product32.jpg",
+                "/images/product/product32.jpg",
+                "/images/product/product32.jpg"
+            ],
+            "title": "Colorful and Scented Candle",
+            "rate": 5,
+            "evaluation": 722
+        },
+        {
+            "id": 4,
+            "fee": 10,
+            "banner": "/images/product/product33.jpg",
+            "images": [
+                "/images/product/product33.jpg",
+                "/images/product/product33.jpg",
+                "/images/product/product33.jpg"
+            ],
+            "title": "Colorful and Scented Candle",
+            "rate": 3,
+            "evaluation": 93
+        },
+        {
+            "id": 5,
+            "fee": 10,
+            "banner": "/images/product/product34.jpg",
+            "images": [
+                "/images/product/product34.jpg",
+                "/images/product/product34.jpg",
+                "/images/product/product34.jpg"
+            ],
+            "title": "Colorful and Scented Candle",
+            "rate": 2,
+            "evaluation": 0
+        },
+        {
+            "id": 6,
+            "fee": 10,
+            "banner": "/images/product/product35.jpg",
+            "images": [
+                "/images/product/product35.jpg",
+                "/images/product/product35.jpg",
+                "/images/product/product35.jpg"
+            ],
+            "title": "Colorful and Scented Candle",
+            "rate": 4,
+            "evaluation": 94
+        },
+        {
+            "id": 7,
+            "fee": 10,
+            "banner": "/images/product/product36.jpg",
+            "images": [
+                "/images/product/product36.jpg",
+                "/images/product/product36.jpg",
+                "/images/product/product36.jpg"
+            ],
+            "title": "Colorful and Scented Candle",
+            "rate": 0,
+            "evaluation": 92
+        }
+    ],
+    "lipsticks": [
+        {
+            "id": 1,
+            "fee": 30,
+            "banner": "/images/product/product71.jpeg",
+            "images": [
+                "/images/product/images/image110.jpeg",
+                "/images/product/images/image111.jpeg",
+                "/images/product/images/image112.jpeg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 3,
+            "evaluation": 0
+        },
+        {
+            "id": 2,
+            "fee": 50,
+            "banner": "/images/product/product72.jpeg",
+            "images": [
+                "/images/product/images/image113.jpg",
+                "/images/product/images/image114.jpg",
+                "/images/product/images/image115.jpg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 5,
+            "evaluation": 5
+        },
+        {
+            "id": 3,
+            "fee": 100,
+            "banner": "/images/product/product73.jpeg",
+            "images": [
+                "/images/product/images/image116.webp",
+                "/images/product/images/image117.webp",
+                "/images/product/images/image118.jpg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 4,
+            "evaluation": 23
+        },
+        {
+            "id": 4,
+            "fee": 82,
+            "banner": "/images/product/product78.jpeg",
+            "images": [
+                "/images/product/images/image119.jpeg",
+                "/images/product/images/image120.jpeg",
+                "/images/product/images/image121.jpeg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 5,
+            "evaluation": 39
+        },
+        {
+            "id": 5,
+            "fee": 75,
+            "banner": "/images/product/product47.jpg",
+            "images": [
+                "/images/product/images/image122.jpeg",
+                "/images/product/images/image123.jpg",
+                "/images/product/images/image124.jpg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 4,
+            "evaluation": 40
+        },
+        {
+            "id": 6,
+            "fee": 56,
+            "banner": "/images/product/product76.jpeg",
+            "images": [
+                "/images/product/images/image125.jpg",
+                "/images/product/images/image126.jpg",
+                "/images/product/images/image127.jpg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 3,
+            "evaluation": 41
+        },
+        {
+            "id": 7,
+            "fee": 48,
+            "banner": "/images/product/product77.jpeg",
+            "images": [
+                "/images/product/images/image128.jpeg",
+                "/images/product/images/image129.jpeg",
+                "/images/product/images/image130.jpg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 2,
+            "evaluation": 88
+        },
+        {
+            "id": 8,
+            "fee": 34,
+            "banner": "/images/product/product78.jpeg",
+            "images": [
+                "/images/product/images/image119.jpeg",
+                "/images/product/images/image120.jpeg",
+                "/images/product/images/image121.jpeg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 1,
+            "evaluation": 23
+        },
+        {
+            "id": 9,
+            "fee": 45,
+            "banner": "/images/product/product45.jpg",
+            "images": [
+                "/images/product/images/image131.webp",
+                "/images/product/images/image132.jpg",
+                "/images/product/images/image133.jpg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 0,
+            "evaluation": 0
+        },
+        {
+            "id": 10,
+            "fee": 56,
+            "banner": "/images/product/product49.jpg",
+            "images": [
+                "/images/product/images/image134.jpeg",
+                "/images/product/product49.jpg",
+                "/images/product/product49.jpg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 5,
+            "evaluation": 74
+        },
+        {
+            "id": 11,
+            "fee": 46,
+            "banner": "/images/product/product47.jpg",
+            "images": [
+                "/images/product/images/image122.jpeg",
+                "/images/product/images/image123.jpg",
+                "/images/product/images/image124.jpg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 5,
+            "evaluation": 5
+        },
+        {
+            "id": 12,
+            "fee": 10,
+            "banner": "/images/product/product48.jpg",
+            "images": [
+                "/images/product/product48.jpg",
+                "/images/product/product48.jpg",
+                "/images/product/product48.jpg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 4,
+            "evaluation": 2
+        },
+        {
+            "id": 13,
+            "fee": 10,
+            "banner": "/images/product/product49.jpg",
+            "images": [
+                "/images/product/images/image134.jpeg",
+                "/images/product/product49.jpg",
+                "/images/product/product49.jpg"
+            ],
+            "title": "Permanent Lipstick",
+            "rate": 4,
+            "evaluation": 0
+        }
+    ],
+    "skin_care": [
+        {
+            "id": 1,
+            "fee": 85,
+            "banner": "/images/product/product54.jpg",
+            "images": [
+                "/images/product/images/image1.jpeg",
+                "/images/product/images/image2.jpeg",
+                "/images/product/images/image3.jpeg"
+            ],
+            "title": "Baby Care Products Set",
+            "rate": 3,
+            "evaluation": 1
+        },
+        {
+            "id": 2,
+            "fee": 48,
+            "banner": "/images/product/product55.jpg",
+            "images": [
+                "/images/product/images/image83.webp",
+                "/images/product/images/image84.webp",
+                "/images/product/images/image85.webp"
+            ],
+            "title": "Hair Care Set",
+            "rate": 3,
+            "evaluation": 7
+        },
+        {
+            "id": 3,
+            "fee": 47,
+            "banner": "/images/product/product56.jpg",
+            "images": [
+                "/images/product/images/image86.jpeg",
+                "/images/product/images/image87.jpeg",
+                "/images/product/images/image88.webp"
+            ],
+            "title": "Baby Care Products Set",
+            "rate": 2,
+            "evaluation": 36
+        },
+        {
+            "id": 4,
+            "fee": 76,
+            "banner": "/images/product/product57.jpg",
+            "images": [
+                "/images/product/images/image89.jpeg",
+                "/images/product/images/image90.jpg",
+                "/images/product/images/image91.jpg"
+            ],
+            "title": "Hair Care Set",
+            "rate": 2,
+            "evaluation": 77
+        },
+        {
+            "id": 5,
+            "fee": 72,
+            "banner": "/images/product/product58.jpg",
+            "images": [
+                "/images/product/images/image92.webp",
+                "/images/product/images/image93.webp",
+                "/images/product/images/image94.jpg"
+            ],
+            "title": "Hair Care Set",
+            "rate": 5,
+            "evaluation": 55
+        },
+        {
+            "id": 6,
+            "fee": 75,
+            "banner": "/images/product/product59.jpg",
+            "images": [
+                "/images/product/images/image95.webp",
+                "/images/product/images/image95.webp",
+                "/images/product/images/image95.webp"
+            ],
+            "title": "Pearl Body Lotion and Sea Weed Body Lotion",
+            "rate": 5,
+            "evaluation": 10
+        },
+        {
+            "id": 7,
+            "fee": 28,
+            "banner": "/images/product/product60.jpg",
+            "images": [
+                "/images/product/images/image96.jpg",
+                "/images/product/images/image97.webp",
+                "/images/product/images/image98.jpeg"
+            ],
+            "title": "Body Wash Set",
+            "rate": 4,
+            "evaluation": 22
+        },
+        {
+            "id": 8,
+            "fee": 46,
+            "banner": "/images/product/product61.jpg",
+            "images": [
+                "/images/product/images/image99.webp",
+                "/images/product/images/image100.webp",
+                "/images/product/images/image99.webp"
+            ],
+            "title": "Jojoba Oil",
+            "rate": 4,
+            "evaluation": 785
+        },
+        {
+            "id": 9,
+            "fee": 52,
+            "banner": "/images/product/product62.jpg",
+            "images": [
+                "/images/product/images/image101.webp",
+                "/images/product/images/image102.webp",
+                "/images/product/images/image103.webp"
+            ],
+            "title": "Lymphatic Dranage Efect",
+            "rate": 5,
+            "evaluation": 6
+        },
+        {
+            "id": 10,
+            "fee": 44,
+            "banner": "/images/product/product63.jpg",
+            "images": [
+                "/images/product/product63.jpg",
+                "/images/product/product63.jpg",
+                "/images/product/product63.jpg"
+            ],
+            "title": "Hair Care Set",
+            "rate": 3,
+            "evaluation": 9
+        },
+        {
+            "id": 11,
+            "fee": 55,
+            "banner": "/images/product/product64.jpg",
+            "images": [
+                "/images/product/images/image104.jpg",
+                "/images/product/images/image105.jpg",
+                "/images/product/images/image106.jpg"
+            ],
+            "title": "Skin Care Serum",
+            "rate": 3,
+            "evaluation": 3
+        },
+        {
+            "id": 12,
+            "fee": 85,
+            "banner": "/images/product/product65.webp",
+            "images": [
+                "/images/product/images/image107.jpg",
+                "/images/product/images/image108.jpg",
+                "/images/product/images/image109.jpg"
+            ],
+            "title": "Hair Care Set",
+            "rate": 2,
+            "evaluation": 2
+        }
+    ]
+}

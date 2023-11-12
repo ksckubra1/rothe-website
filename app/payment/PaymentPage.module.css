@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mrs+Saint+Delafield&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.cardParent {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.card {
+    width: 500px;
+    height: 300px;
+    perspective: 1000px;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+}
+
+.cardFace {
+    display: flex;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: transform .5s linear;
+    transform-style: preserve-3d;
+    flex-direction: column;
+    box-shadow: 10px 10px 15px rgba(15, 15, 15, 0.363);
+    overflow: hidden;
+}
+
+.backFace {
+    transform: rotateY(180deg);
+    background-image: linear-gradient(to right top, #64e4af, #54a3d1, #8a4bd3, #a65db4, #d64fd6);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.frontFace {
+    transform: rotateY(0deg);
+    background-image: linear-gradient(to right bottom, #b781c2, #54a3d1, #7355c5, #6160b3, #54a3d1);
+    padding: 16px;
+
+}
+
+
+
+.flipped .backFace {
+    transform: rotateY(360deg);
+}
+
+.flipped .frontFace {
+    transform: rotateY(180deg);
+}
+
+.signature {
+    padding-left: 40px;
+    font-size: xxx-large;
+    font-family: 'Mrs Saint Delafield', cursive;
+    color: rgba(0, 0, 0, 0.623);
+    padding-top: 20px;
+}
+
+.paymentParent {
+    box-shadow: 10px 10px 80px 14px rgb(158, 157, 157);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: 800px;
+    border-radius: 40px 40px;
+    display: flex;
+}
