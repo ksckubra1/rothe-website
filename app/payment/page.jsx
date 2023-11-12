@@ -38,8 +38,8 @@ export default function Payment() {
                 </div>
 
 
-                <div className={`${styles.cardParent} flex lg:w-1/2 h-full p-10 lg:p-0 `}>
-                    <div onClick={() => setIsFlipped(!isFlipped)} className={`${styles.card} ${isFlipped ? styles.flipped : ""}`}>
+                <div className={`${styles.cardParent} flex lg:w-1/2 h-full `}>
+                    <div onClick={() => setIsFlipped(!isFlipped)} className={`${styles.card} ${isFlipped ? styles.flipped : ""} `}>
                         <div className={styles.cardFace + " " + styles.frontFace}>
                             <img className="absolute h-72" src="/images/icon/stars.png" alt="" />
                             <div className="absolute top-3 right-4">
