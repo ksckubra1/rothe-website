@@ -40,9 +40,9 @@ export default function PaymentResult() {
     };
 
     return (
-        <div className="py-28">
+        <div className="lg:py-28 h-[calc(100vh-4rem)]">
 
-            <div className={`${styles.paymentResultParent}`}>
+            <div className={`${styles.paymentResultParent} lg:rounded-3xl lg:w-[70%] h-full`}>
                 {currentScreen === "payment" &&
                     <Lottie
                         options={defaultOptions2}
