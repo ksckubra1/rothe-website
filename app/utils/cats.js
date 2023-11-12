@@ -27,7 +27,7 @@ export const getCategoriesWithItems = async () => {
     const newArr = []
 
     for (let index = 0; index < cats.length; index++) {
-        let resp = await fetch(`http://localhost:3004/${cats[index].id}?_limit=${defaultLimit}`)
+        let resp = await fetch(`http://localhost:8080/api/cat/${cats[index].id}?_limit=${defaultLimit}`)
         const items = await resp.json()
 
         newArr.push({

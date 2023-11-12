@@ -2,7 +2,7 @@ import Link from "next/link";
 import ProductItem from "@/app/components/ProductItem";
 import { getCategoryTitleById } from "@/app/utils/cats";
 export default async function CategoryPage({ params }) {
-    let resp = await fetch(`http://localhost:3004/${params.cat}`)
+    let resp = await fetch(`http://localhost:3000/api/cat/${params.cat}`)
     const categoryData = await resp.json()
 
     return (

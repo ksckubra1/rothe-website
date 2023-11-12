@@ -26,7 +26,7 @@ export default function ProductPage({ params }) {
 
 
     useEffect(() => {
-        fetch(`http://localhost:3004/${params.cat}/${params.id}`)
+        fetch(`/api/cat/${params.cat}/${params.id}`)
             .then(resp => resp.json())
             .then(resp => {
                 setData(resp)
