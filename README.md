@@ -6,4 +6,3 @@
 - Next.js
 - Tailwindcss
 - Context Provider
-
