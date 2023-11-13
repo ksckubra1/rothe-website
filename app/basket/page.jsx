@@ -51,7 +51,7 @@ export default function Basket() {
                                 products.map((pr, index) => {
                                     return (
                                         <div key={index} className="h-32 w-full shadow-xl flex overflow-hidden bg-[#E2DBDB] rounded-lg  shrink-0">
-                                            <div className="w-3/12 md:w-2/12 overflow-hidden">
+                                            <div className="w-3/12 md:w-2/12 overflow-hidden aspect-square">
                                                 <img src={pr.banner} className="h-full w-full object-cover" />
 
                                             </div>
