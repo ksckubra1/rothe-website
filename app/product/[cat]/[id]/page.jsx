@@ -96,7 +96,7 @@ export default function ProductPage({ params }) {
                                 <img onClick={(e) => {
                                     setImageSrc(e.target.src)
                                 }}
-                                    key={index} className="flex-1 cursor-pointer h-full w-full overflow-hidden shadow-lg object-cover rounded-lg " src={image} alt="" />
+                                    key={index} className="flex-1 cursor-pointer w-full overflow-hidden shadow-lg object-cover rounded-lg " src={image} alt="" />
                             ))
                         }
                     </div>
